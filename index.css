@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.col1, .col2, .col3, .col4 {
+    width: 100px;
+    height: 50px;
+}
+
+.container-center {
+    width: 50%;
+    justify-content: left;
+}
+
+.center-input {
+    margin-bottom: 10px;
+}
+
+.container-sign {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign {
+    margin-right: 5em;
+}
