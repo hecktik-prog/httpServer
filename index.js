@@ -1,6 +1,5 @@
 import http from 'http'
 import fs from 'fs'
-import { promises } from 'fs'
 import path, { dirname } from 'path'
 
 const port = 8080
